@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Mango</title>
+    <style>
+        *{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Times New Roman', Times, serif;}
+        .header{width: 100%; height: 60px; background-image: linear-gradient(rgba(5,0,136,0.5),rgba(5,0,136,0.5)),url(img1.jpg);}
+        nav{width: 100%; justify-content: space-between; padding: 12px 18%; display: flex; align-items: center;}
+        nav .logo{display: flex; align-items: center; font-size: 25px; transition: background 1s; font-weight: 500; color: red;}
+        nav ul li{display: inline-block; list-style: none; margin: 10px 20px;}
+        nav ul li a{text-decoration: none; color: #fff; font-weight: 500;}
+        nav:hover{background: green;}nav:hover .logo{color: #fff;}nav:hover ul li a{color: yellow;}
+        .row{display: flex; height: 80%; align-items: center; margin-top: 2.5%; background-image: url(back.jpg);} .col{flex-basis: 50%;}h1{color: #fff;} 
+        p{color: #fff; font-size: 20px; line-height: 20px;} 
+        .card{width: 200px; height: 230px; display: inline-block; border-radius: 10px; padding: 15px 25px; box-sizing: border-box; cursor: pointer; margin: 10px 15px; background-position: center; background-size: cover; transition: transform 0.5s;}
+        .card1{background-image: url("html2.jpg");}.card2{background-image: url("java.jpg");}.card3{background-image: url("Python1.jpg");}
+        .card4{background-image: url("cpro.jpg");}.card5{background-image: url("sql.jpg");}.card6{background-image: url("bigdata.jpg");}
+        .card:hover{transform: translateY(-19px);}h5{color: #fff; text-shadow: 0 0 5px #999;}h4{color: black; text-shadow: 0 0 5px #999;}
+        .button{border-radius: 120px; padding-left: 12px; padding-right: 12px; color: blue; background-color: #fff; text-align: center; font-size: 25px;}
+       </style>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <div class="logo">
+                <span>Course</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="login.html">Student Login</a></li>
+            </ul>
+            <button class="button" value="Submit">Email Send</button>
+        </nav>
+    </div>
+        <div class="row">
+            <div class="col">
+                <h1>Courses List</h1>
+                <p>The students are learn to any avilable courses are learn and exams are assignments written to this web page.
+                    The students are learn to any avilable courses are learn and assignments written them. 
+                </p>
+            </div>
+            <div class="col">
+                <div class=" card card1">
+                    <h5>Html</h5>
+                    <p>Html page courses are learn to above <a href="#"> click here.</a></p>
+                </div>
+                <div class="card card2">
+                    <h4>java</h4>
+                    <P> java page courses are learn to above <a href="#"> click here.</a> </P>
+                    
+                </div>
+                <div class="card card3">
+                    <h5>python</h5>
+                    <p>python programs course are learn to above <a href="#"> click here.</a></p>
+                </div>
+                <div class="card card4">
+                    <h5>C Language</h5>
+                    <p>C Language course are learn to bellow click here</p>
+                </div>
+                <div class="card card5">
+                    <h5>Sql DataBase</h5>
+                    <p>SQL Data Base course are learn to bellow click here</p>
+                </div>
+                <div class="card card6">
+                    <h5>Big Data</h5>
+                    <p>Big Data course are learn to bellow click here</p>
+                </div>
+            </div>
+        </div>
+        <div class="wedget">
+            <div class="wedget row1">
+                
+            </div>
+        </div>
+</body>
+</html>
